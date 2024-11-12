@@ -1,0 +1,14 @@
+# 导出函数
+export(SOPC_estimation)
+export(SFM)
+export(calculate_errors)
+export(huber.reg.adaptive.skew)
+
+# 导入特定函数
+importFrom(stats, cor, runif, lm, coef) 
+importFrom(MASS, mvrnorm)
+importFrom(sn, rsn, rsc, rst)  # 确保 rsc 被正确导入
+importFrom(SOPC, SOPC)          # 确保 SOPC 被正确导入
+
+# 如果需要，导入整个 matrixcalc 包
+import(matrixcalc)

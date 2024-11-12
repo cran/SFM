@@ -1,0 +1,11 @@
+f8f94ee035bd3900b81f0c6a1e7b4aa5 *DESCRIPTION
+b5780932ae341abb94c969dc5a37bf70 *LICENSE
+fe79bf6b7f85b89d85ba20577fda345a *NAMESPACE
+a82f595ac6b17210f40c684e469d7c03 *R/SFM.R
+1e73da08eab6e26aedf72bb4073f153d *R/SOPC_estimation.R
+a34dd7db63fced461554a3bf379567b5 *R/calculate_errors.R
+a8c38c0a0640c6b14d72d0bbd6d0a5f2 *R/huber.reg.adaptive.skew.R
+e4bd4a5d1bddaf317ae8fe71fa9fa93a *man/SFM.Rd
+6a1757e38fd463a2cf62dd5c58a7e53d *man/SOPC_estimation.Rd
+8d0922a69490f0eedaafe32a947cb212 *man/calculate_errors.Rd
+2c19ed5ba6a6d17d6754ed73f8680cb4 *man/huber.reg.adaptive.skew.Rd
