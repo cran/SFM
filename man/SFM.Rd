@@ -36,6 +36,7 @@ library(MASS)
 library(SOPC)
 library(sn)
 library(matrixcalc)
+library(psych)
 n <- 100
 p <- 10
 m <- 5

@@ -12,6 +12,8 @@
 #' \item{LSA}{Relative error for factor loadings.}
 #' \item{LSD}{Relative error for uniqueness estimates.}
 #' @export
+#' @importFrom matrixcalc frobenius.norm
+#' @importFrom stats cov
 #' @examples
 #' set.seed(123) # For reproducibility
 #' # Define dimensions
@@ -26,8 +28,6 @@
 #' # Calculate errors
 #' errors <- calculate_errors(data, A, D)
 #' print(errors)
-
-
 calculate_errors <- function(data, A, D) {
   # Estimate factor loadings and uniquenesses using SOPC
   estimation_results <- SOPC(data, m = ncol(data), gamma = 0.1, eta = 0.8)

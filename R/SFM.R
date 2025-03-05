@@ -24,6 +24,7 @@
 #' library(SOPC)
 #' library(sn)
 #' library(matrixcalc)
+#' library(psych)
 #' n <- 100
 #' p <- 10
 #' m <- 5
@@ -34,7 +35,8 @@
 #' X <- SFM(n, p, m, xi, omega, alpha, distribution_type)
 #' 
 #' @export
-#' 
+#' @importFrom matrixcalc frobenius.norm
+#' @importFrom stats cov
 SFM <- function(n, p, m, xi, omega, alpha, distribution_type) {
   mu <- t(matrix(rep(runif(m, 0, 100), n), m, n))
   mu0 <- as.matrix(runif(p, 0))

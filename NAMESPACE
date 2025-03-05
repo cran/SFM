@@ -1,14 +1,20 @@
-# 导出函数
-export(SOPC_estimation)
+export(FanPC.SFM)
+export(GulPC.SFM)
+export(IPC.SFM)
+export(OPC.SFM)
+export(PC1.SFM)
+export(PC2.SFM)
+export(PPC1.SFM)
+export(PPC2.SFM)
+export(SAPC.SFM)
 export(SFM)
+export(SOPC.SFM)
+export(SPC.SFM)
 export(calculate_errors)
-export(huber.reg.adaptive.skew)
 
-# 导入特定函数
-importFrom(stats, cor, runif, lm, coef) 
+importFrom(SOPC, IPC, PPC, SPC, OPC, SAPC, SOPC)
+importFrom(matrixcalc, frobenius.norm)
+importFrom(stats, cor, cov,runif)
+importFrom(sn, rsn)
 importFrom(MASS, mvrnorm)
-importFrom(sn, rsn, rsc, rst)  # 确保 rsc 被正确导入
-importFrom(SOPC, SOPC)          # 确保 SOPC 被正确导入
-
-# 如果需要，导入整个 matrixcalc 包
-import(matrixcalc)
+import(psych)
