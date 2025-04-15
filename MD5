@@ -1,6 +1,6 @@
-497c374ecd2d31e91357b4c940c402fc *DESCRIPTION
+d48658db165deae3e414184a92741100 *DESCRIPTION
 b5780932ae341abb94c969dc5a37bf70 *LICENSE
-2902fa6e609c95acdaa0a59850bbaad0 *NAMESPACE
+ff8de74e2855fc6fa382cd7b2634107d *NAMESPACE
 72caa7159bf6e04f3fc2ac01df983d77 *R/FanPC.SFM.R
 dbb329f510655703b025b38cd87be326 *R/GulPC.SFM.R
 875adaaa2949a6f53652b75873039f61 *R/IPC.SFM.R
@@ -14,6 +14,9 @@ d44a7ebf2e76249d74832c46d013c0da *R/PPC1.SFM.R
 4f554d57f8aab7cdb366e8d611fe1f80 *R/SOPC.SFM.R
 fd1a029300dd5791070106e2acf7f74b *R/SPC.SFM.R
 91b4875fe05e6539e2febf2e8c42cdbb *R/calculate_errors.R
+fe743b3c55a2ab2156f693404b2e383d *data/concrete_slump.rda
+6e19e6e6e8b429624d11862bc71789ac *data/protein.rda
+91026f1b918b652a4ad6c135c761fad1 *data/yacht_hydrodynamics.rda
 c8dc2548ab1ecd3833d279623d266adc *man/FanPC.SFM.Rd
 6a7d1d7db6adac4754f1b1c67083fedb *man/GulPC.SFM.Rd
 deadecfdecf40f2e03039944f693e523 *man/IPC.SFM.Rd
@@ -27,3 +30,6 @@ dd0583a33f037c2bbc376081f2d5f46e *man/SAPC.SFM.Rd
 542424552c9a0156a25223a2000cec4d *man/SOPC.SFM.Rd
 1cd45e1916b901e329d39c4e01700f26 *man/SPC.SFM.Rd
 8d0922a69490f0eedaafe32a947cb212 *man/calculate_errors.Rd
+8a04c2943016e91168ab160d94d8c5fc *man/concrete_slump.Rd
+bd4aeb6320cc946fb291d811ccd22ee5 *man/protein.Rd
+1319deebefce810d1fe72a23f061cae3 *man/yacht_hydrodynamics.Rd

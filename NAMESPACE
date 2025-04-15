@@ -12,6 +12,7 @@ export(SOPC.SFM)
 export(SPC.SFM)
 export(calculate_errors)
 
+
 importFrom(SOPC, IPC, PPC, SPC, OPC, SAPC, SOPC)
 importFrom(matrixcalc, frobenius.norm)
 importFrom(stats, cor, cov,runif)
